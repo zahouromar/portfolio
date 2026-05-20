@@ -1,16 +1,4 @@
 # 24BCS018 - ZAHOR KHALFAN OMAR
-# Portfolio
-
-This is a basic personal portfolio website.
-
-## Project Files
-
-- `index.html` - the HTML structure
-- `styles.css` - the CSS styles
-- `app.js` - JavaScript file, empty for now
-- `assets/images/` - folder for images
-
-## About This Project
 
 The portfolio includes:
 
