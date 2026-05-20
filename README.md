@@ -20,5 +20,3 @@ The portfolio includes:
 - A footer with copyright and social links
 - A Profile photo
 
-- This is commit 5
-
