@@ -19,3 +19,6 @@ The portfolio includes:
 - A contact section with a form and email
 - A footer with copyright and social links
 - A Profile photo
+
+- This is commit 3
+
