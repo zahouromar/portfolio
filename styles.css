@@ -1,0 +1,121 @@
+:root {
+  --primary: #0645ad;
+  --bg: white;
+  --text: #222;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 0.0625rem solid #ccc;
+  padding: 1.25rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+nav a {
+  color: var(--primary);
+}
+
+main {
+  max-width: 56.25rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  border-bottom: 0.0625rem solid #ccc;
+  padding-bottom: 0.3125rem;
+}
+
+.profile-photo {
+  max-width: 12rem;
+  width: 100%;
+}
+
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+article {
+  border: 0.0625rem solid #ccc;
+  padding: 1rem;
+}
+
+a {
+  color: var(--primary);
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 31.25rem;
+}
+
+label {
+  margin-top: 0.625rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3125rem;
+  border: 0.0625rem solid #999;
+  font: inherit;
+}
+
+button {
+  margin-top: 0.625rem;
+  padding: 0.5rem 1rem;
+  border: 0.0625rem solid #999;
+  background-color: white;
+  cursor: pointer;
+}
+
+footer {
+  border-top: 0.0625rem solid #ccc;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
