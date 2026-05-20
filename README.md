@@ -18,9 +18,4 @@ The portfolio includes:
 - A projects section with project cards
 - A contact section with a form and email
 - A footer with copyright and social links
-
-Add your profile photo here:
-
-```text
-assets/images/profile.jpg
-```
+- A Profile photo
